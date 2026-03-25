@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.9);
+    font-family: 'Bigshot One', cursive;
+    border-radius: 20px;
+    border: 5px solid crimson;
+}
+
+.primeira_linha,
+.segunda_linha,
+.terceira_linha, 
+.quarta_linha {
+    background-color: blueviolet;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.coleiras,
+.brinquedos, 
+.condicionador {
+    width: 300px;
+    height: auto;
+    margin: 80px;
+    
+}
+
+.mastig1, 
+.mastig2,
+.osso {
+    width: 300px;
+    height: auto;
+    margin: 80px;
+}
+
+.petdog, 
+.petsalive, 
+.textil {
+    width: 300px;
+    height: auto;
+    margin: 80px;
+}
+
+.veja,
+.casinha,
+.wiskas {
+    width: 300px;
+    height: auto;
+    margin: 80px;
+}
