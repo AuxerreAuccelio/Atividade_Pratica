@@ -49,3 +49,8 @@ h1 {
     height: auto;
     margin: 80px;
 }
+
+.bt-avancar {
+    text-align: center;
+    justify-content: center;
+}
