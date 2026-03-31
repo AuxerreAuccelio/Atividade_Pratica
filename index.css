@@ -5,5 +5,48 @@ h1 {
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.9);
     font-family: 'Bigshot One', cursive;
     border-radius: 20px;
-    border: 5px solid crimson;
+    /* border: 5px solid crimson; */
+}
+
+body {
+    background-color: rgb(167, 50, 73);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* centraliza o formulário */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    /* border: 2px solid greenyellow ; */
+    
+}
+
+input {
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #1E1E1E;
+    letter-spacing: 2rem;
+    
+    
+}
+
+button {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background-color: crimson;
+    letter-spacing: 2rem;
+    color: #FFF;
+}
+
+
+button:hover {
+    background-color: green;
 }
