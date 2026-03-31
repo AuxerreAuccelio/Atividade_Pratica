@@ -7,3 +7,15 @@ if (botao) {
 } else {
   alert("Deu erro!");
 }
+
+const button = document.getElementById("bt-voltar");
+if (button) {
+  button.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.location.href = "index.html";
+  });
+} else {
+  alert("Deu erro!");
+}
+
+/* Tentar fazer pelo id # utilizando o querySelectorAll */
