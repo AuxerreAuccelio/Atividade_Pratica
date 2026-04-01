@@ -1,3 +1,7 @@
+body {
+    background-color: blueviolet;
+}
+
 h1 {
     text-align: center;
     font-size: 10rem;
@@ -5,7 +9,7 @@ h1 {
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.9);
     font-family: 'Bigshot One', cursive;
     border-radius: 20px;
-    border: 5px solid crimson;
+    border: 5px solid blueviolet;
 }
 
 .primeira_linha,
@@ -50,7 +54,27 @@ h1 {
     margin: 80px;
 }
 
-.bt-avancar {
-    text-align: center;
+.button {
+    display: flex;
     justify-content: center;
+}
+
+#bt-avancar {
+    text-align: center;
+    border-radius: 20px;
+    width: 10rem;
+    background-color: green;
+    /* border: 2px solid crimson; */
+}
+
+#bt-voltar{
+    text-align: center;    
+    border-radius: 20px;
+    width: 10rem;
+    background-color: orange;
+    /* border: 2px solid turquoise; */
+}
+
+.espaco {
+    margin: 30px;
 }

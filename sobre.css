@@ -1,3 +1,32 @@
 h1 {
-    border: 5px solid crimson;
+    text-align: center;
+    font-family: 'Bigshot One', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.9);
+    /* border: 5px solid crimson; */
 }
+
+h3 {
+    text-align: center;
+    font-family: 'Bigshot One', cursive;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    font-family: 'Bigshot One', cursive;    
+    font-size: 2rem;
+}
+
+
+
+/* #bt-avancar {
+    text-align: center;
+    border-radius: 20px;
+    width: 10rem;
+    background-color: green;
+    /* border: 2px solid crimson; */
+} 
+*/
