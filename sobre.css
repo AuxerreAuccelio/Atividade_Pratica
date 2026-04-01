@@ -1,3 +1,7 @@
+body {
+    background-color: #5c5c5c;
+}
+
 h1 {
     text-align: center;
     font-family: 'Bigshot One', cursive;
@@ -20,13 +24,28 @@ p {
     font-size: 2rem;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+}
 
-
-/* #bt-avancar {
+#bt-avancar {
     text-align: center;
     border-radius: 20px;
     width: 10rem;
     background-color: green;
     /* border: 2px solid crimson; */
 } 
-*/
+
+
+#bt-voltar{
+    text-align: center;    
+    border-radius: 20px;
+    width: 10rem;
+    background-color: orange;
+    /* border: 2px solid turquoise; */
+}
+
+.espaco {
+    margin: 30px;
+}
