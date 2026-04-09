@@ -1,3 +1,43 @@
+:root{
+    --cor_fundo: blueviolet;
+    --paragrafo: white;
+
+    --alinhamento_p: center;
+    --tamanho_p: 5rem;
+    --vertical: center
+}
+
 body {
     background-color: #1f1f1f;
+}
+
+.primeira_linha, 
+.segunda_linha, 
+.terceira_linha,
+.quarta_linha {
+    
+    display: flex;
+    justify-content: left;
+    flex-direction: center;
+    
+}
+
+.whatsapp,
+.instagram, 
+.telegram, 
+.telefone {
+    
+    width: 15%;
+}
+
+.geral {
+    background-color: var(--cor_fundo);
+}
+
+p {
+    font-size: var(--tamanho_p);
+    color: var(--paragrafo);
+    justify-content: var(--alinhamento_p);
+    flex-direction: var(--vertical);
+    
 }
